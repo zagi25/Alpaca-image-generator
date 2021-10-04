@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+
+*,
+::after,
+::before{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Valera Round', sans-serif;
+	background: #efedf0;
+	letter-spacing: 2px;
+	
+}
+
+header {
+	font-size: 2rem;
+	padding: 1rem;
+	margin: 1rem 0 1rem 10rem;
+	text-transform: uppercase;
+}
+
+.generator {
+	display: flex;
+}
+
+.img-container{
+	width: 50%;
+	
+}
+
+.merged-img { 
+	width: 500px;
+	margin-left: 11rem;
+}
+
+.btn-container{
+	width: 50%;
+	display:flex;
+	flex-direction: column;
+}
+
+.parts{
+	width: 100%;
+	text-transform: uppercase;
+	font-size: 0.8rem;
+	margin-bottom: 5rem;
+}
+
+.parts h1{
+	margin-left: 0.3rem;
+}
+
+.btn-parts{
+	text-transform: uppercase;
+	padding: 1rem;
+	margin: 0.3rem;
+	background: inherit;
+	border-radius: 1rem;
+	border: 1px solid black;
+	cursor: pointer;
+	font-weight: 900;
+}
+
+.style {
+	width: 100%;
+	font-size: 0.8rem;
+}
+
+.style h1{
+	margin-left: 0.3rem;
+	text-transform: uppercase;
+}
+
+.randown-container{
+	margin-top: 12.5rem;
+}
+
+.randown:first-child {
+	color: red;
+	background: inherit;
+	border:1px solid red;
+	margin-left: 0.3rem;
+
+}
+
+.randown:last-child {
+	margin-left: 1rem;
+	color: green;
+	background: inherit;
+	border: 1px solid green;
+}
+
+.randown:first-child:hover{
+	color: white;
+	background: red;
+}
+
+.randown:last-child:hover{
+	color: white;
+	background: green;
+}
+
+
+
+
+
+
