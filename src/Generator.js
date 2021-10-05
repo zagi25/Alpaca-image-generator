@@ -24,15 +24,13 @@ function Generator() {
     color: 'white',
     border: `1px solid ${colors[changePart.backgrounds]}`,
   };
-
+   
   let nonHoverStyle = {
     background: 'inherit',
     color: colors[changePart.backgrounds],
     border: `1px solid ${colors[changePart.backgrounds]}`,
   };
-  const h = 200;
 
-  const a = 20;
   const handleClickStyle = e => {
     e.preventDefault();
     setChangePart({...changePart, [part]: e.target.value});
