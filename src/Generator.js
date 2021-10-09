@@ -136,7 +136,7 @@ function Generator() {
   return (
     <main>
       <header>
-        <h1>Alpaca generator</h1>
+        <h1>lpaca generator</h1>
       </header>
       <section className="generator">
         <div className="img-container">
